@@ -12,7 +12,7 @@ BOOL Alokuj(MUINT celkoovyPocetZrebov)
 	{
 
 		CelkovyPocetZrebov = celkoovyPocetZrebov;
-		Zreby = malloc(celkoovyPocetZrebov * sizeof(struct Zreb));
+		Zreby = calloc(celkoovyPocetZrebov, sizeof(struct Zreb));
 		if (Zreby != NULL)
 			return TRUE;
 	}
