@@ -1,2 +1,3 @@
 #pragma once
-void Tah(unsigned int celkovyPocetZrebov, unsigned int pocetLosovanychZrebov);
+#include "Data.h"
+void Tah(MUINT celkovyPocetZrebov, MUINT pocetLosovanychZrebov);

@@ -129,12 +129,14 @@
   <ItemGroup>
     <ClCompile Include="Data.c" />
     <ClCompile Include="Loteria.c" />
-    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Main.c" />
+    <ClCompile Include="Vstup.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Data.h" />
     <ClInclude Include="Defs.h" />
     <ClInclude Include="Loteria.h" />
+    <ClInclude Include="Vstup.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

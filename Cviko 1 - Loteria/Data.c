@@ -1,4 +1,5 @@
 #include "Data.h"
+#include <malloc.h>
 
 extern MUINT CelkovyPocetZrebov = 0;
 
@@ -16,4 +17,10 @@ BOOL Alokuj(MUINT celkoovyPocetZrebov)
 			return TRUE;
 	}
 	return FALSE;
+}
+
+void Uvolni()
+{
+	free(Zreby);
+	Zreby = NULL;
 }

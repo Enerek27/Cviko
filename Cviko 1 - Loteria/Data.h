@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Defs.h"
-#include <malloc.h>
+
 
 extern MUINT CelkovyPocetZrebov;
 
@@ -15,3 +15,4 @@ extern struct Zreb* Zreby;
 
 
 BOOL Alokuj(MUINT celkoovyPocetZrebov);
+void Uvolni();

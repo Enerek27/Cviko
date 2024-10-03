@@ -1,19 +1,18 @@
 #include "Loteria.h"
-void Tah(unsigned int celkovyPocetZrebov, unsigned int pocetLosovanychZrebov)
+
+void Tah(MUINT celkovyPocetZrebov, MUINT pocetLosovanychZrebov)
 
 
 {
 	if (Alokuj(celkovyPocetZrebov)) 
 	{
 
-		/*PripravZreby(celkovyPocetZrebov);
-		Losuj(celkovyPocetZrebov, pocetLosovanychZrebov);
-		VypisVysledok(pocetLosovanychZrebov);
-		Uvolni();*/
+		PripravZreby();
+		//Losuj(celkovyPocetZrebov, pocetLosovanychZrebov);
+		//VypisVysledok(pocetLosovanychZrebov);
+		Uvolni();
 	}
-	else
-	{
-		Help();
-	}
+	//else
+		//Help();
 	
 }
