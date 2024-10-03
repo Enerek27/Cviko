@@ -3,6 +3,7 @@
 #include "Defs.h"
 #include <malloc.h>
 
+extern MUINT CelkovyPocetZrebov;
 
 struct Zreb
 {

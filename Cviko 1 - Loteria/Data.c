@@ -7,7 +7,7 @@ struct Zreb* Zreby;
 
 BOOL Alokuj(MUINT celkoovyPocetZrebov)
 {
-	if (celkoovyPocetZrebov >= 0)
+	if (celkoovyPocetZrebov != 0)
 	{
 
 		CelkovyPocetZrebov = celkoovyPocetZrebov;
