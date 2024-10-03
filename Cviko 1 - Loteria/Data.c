@@ -1,6 +1,19 @@
 #include "Data.h"
 
-int Alokuj(unsigned int celkoovyPocetZrebov)
+extern MUINT CelkovyPocetZrebov = 0;
+
+struct Zreb* Zreby;
+
+
+BOOL Alokuj(MUINT celkoovyPocetZrebov)
 {
-	return 0;
+	if (celkoovyPocetZrebov >= 0)
+	{
+
+		CelkovyPocetZrebov = celkoovyPocetZrebov;
+		Zreby = malloc(celkoovyPocetZrebov * sizeof(struct Zreb));
+		if (Zreby != NULL)
+			return TRUE;
+	}
+	return FALSE;
 }
