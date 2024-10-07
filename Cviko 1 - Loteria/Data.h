@@ -14,5 +14,5 @@ extern struct Zreb* Zreby;
 
 
 
-BOOL Alokuj(MUINT celkoovyPocetZrebov);
+BOOL Alokuj(MUINT celkoovy_pocet_zrebov);
 void Uvolni();

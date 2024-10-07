@@ -6,13 +6,13 @@ extern MUINT CelkovyPocetZrebov = 0;
 struct Zreb* Zreby;
 
 
-BOOL Alokuj(MUINT celkoovyPocetZrebov)
+BOOL Alokuj(MUINT celkoovy_pocet_zrebov)
 {
-	if (celkoovyPocetZrebov != 0)
+	if (celkoovy_pocet_zrebov != 0)
 	{
 
-		CelkovyPocetZrebov = celkoovyPocetZrebov;
-		Zreby = calloc(celkoovyPocetZrebov, sizeof(struct Zreb));
+		CelkovyPocetZrebov = celkoovy_pocet_zrebov;
+		Zreby = calloc(celkoovy_pocet_zrebov, sizeof(struct Zreb));
 		if (Zreby != NULL)
 			return TRUE;
 	}
