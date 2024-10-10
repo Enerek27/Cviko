@@ -27,6 +27,15 @@
     <ClCompile Include="Vstup.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Losovanie.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vystup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Loteria.h">
@@ -39,6 +48,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Vstup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Losovanie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vystup.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

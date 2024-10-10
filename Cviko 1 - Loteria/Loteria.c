@@ -1,5 +1,9 @@
 #include "Loteria.h"
 
+#include "Losovanie.h"
+#include "Vstup.h"
+#include "Vystup.h"
+
 void Tah(MUINT celkovyPocetZrebov, MUINT pocetLosovanychZrebov)
 
 
@@ -8,8 +12,8 @@ void Tah(MUINT celkovyPocetZrebov, MUINT pocetLosovanychZrebov)
 	{
 
 		PripravZreby();
-		//Losuj(celkovyPocetZrebov, pocetLosovanychZrebov);
-		//VypisVysledok(pocetLosovanychZrebov);
+		Losuj(pocetLosovanychZrebov);
+		VypisVysledok(pocetLosovanychZrebov);
 		Uvolni();
 	}
 	//else
