@@ -1,4 +1,4 @@
-//#define TEST  //Konštanta na aktivaciu testov
+//#define _DEBUG  //Konštanta na aktivaciu testov
 
 #ifdef TEST   // Spustenie testov pomocou vlastnej konštnaty
 #include "Test.h"
@@ -15,7 +15,7 @@
 
 
 
-int main()
+int main(int argc, char* argv[])
 {
 
 	BOOL OK = TRUE;
@@ -27,7 +27,7 @@ int main()
 
 	if (OK)
 	{
-		Tah(100, 5);
+		Tah(100, 65);
 	}
 	
 	return 0;

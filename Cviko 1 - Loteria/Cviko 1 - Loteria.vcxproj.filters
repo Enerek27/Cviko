@@ -36,6 +36,9 @@
     <ClCompile Include="Vystup.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Vypis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Loteria.h">
@@ -57,6 +60,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Vystup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vypis.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

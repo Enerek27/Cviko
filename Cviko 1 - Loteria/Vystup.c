@@ -2,7 +2,8 @@
 
 #include <stdio.h>
 
-#include "Data.h"	
+#include "Data.h"
+#include "Vypis.h"
 
 
 void VypisVysledok(MUINT pocet_losovanych_zrebov)
@@ -11,14 +12,16 @@ void VypisVysledok(MUINT pocet_losovanych_zrebov)
 	{
 		pocet_losovanych_zrebov = CelkovyPocetZrebov;
 	}
-	printf("###############################################\n");
-	printf("VYSLEDKY ZREBOVANIA\n");
-	printf("###############################################\n");
+	char textBuf[30];
+	Vypis_text("###############################################\n");
+	Vypis_text("VYSLEDKY ZREBOVANIA\n");
+	Vypis_text("###############################################\n");
 
 
 	for (MUINT i = 0; i < pocet_losovanych_zrebov; i++)
 	{
-		printf("%5u. %u%c\n",i + 1, Zreby[i].cislo, Zreby[i].kod);
+		sprintf(textBuf,"%5u. %u%c\n",i + 1, Zreby[i].cislo, Zreby[i].kod);
+		Vypis_text(textBuf);
 	}
-	printf("###############################################\n");
+	Vypis_text("###############################################\n");
 }

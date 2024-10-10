@@ -1,4 +1,5 @@
 #pragma once
+#include <limits.h>
 #define _WINDOWS
 //#include <stdbool.h>
 
